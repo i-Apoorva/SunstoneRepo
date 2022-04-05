@@ -1,5 +1,7 @@
 This project involves demonstration of node.js, express.js, Mysql skills. And ejs is being used for templating engine.
-Once is deploy it: access it on localhost:8000
+
+
+Once it is deployed: access it on localhost:8000
 For uploading files: have uploads folder in root.
 
 
