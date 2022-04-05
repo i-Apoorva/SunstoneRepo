@@ -1,3 +1,5 @@
+This project involves demonstration of node.js, express.js, Mysql skills. And ejs is being used for templating engine.
+
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
@@ -9,7 +11,7 @@ These are common Git commands used in various situations:
 start a working area (see also: git help tutorial)
    clone             Clone a repository into a new directory
    init              Create an empty Git repository or reinitialize an existing one
-This project involves demonstration of node.js, express.js, Mysql skills. And ejs is being used for templating engine.
+
 
            
            work on the current change (see also: git help everyday)
