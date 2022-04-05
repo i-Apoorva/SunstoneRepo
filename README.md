@@ -9,8 +9,10 @@ These are common Git commands used in various situations:
 start a working area (see also: git help tutorial)
    clone             Clone a repository into a new directory
    init              Create an empty Git repository or reinitialize an existing one
+This project involves demonstration of node.js, express.js, Mysql skills. And ejs is being used for templating engine.
 
-work on the current change (see also: git help everyday)
+           
+           work on the current change (see also: git help everyday)
    add               Add file contents to the index
    mv                Move or rename a file, a directory, or a symlink
    restore           Restore working tree files
