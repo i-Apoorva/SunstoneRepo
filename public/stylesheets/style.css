@@ -1,0 +1,13 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+
+  button:hover {
+    background-color:#3365ee;
+    transition: 0.7s;
+}
+
+button {
+    background-color: #61a2d1;
+}

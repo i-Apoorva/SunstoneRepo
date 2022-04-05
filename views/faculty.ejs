@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <center>
+    <h1> <%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>Perform CRUD operations for faculty</p>
+    <ul>
+        <% Facultys.forEach(function(item,index){ %>
+            <li> <%= item.id %> , <%= item.name %>   <form action="/faculty-upload?id=<%= item.id %>"
+                method="POST"
+                enctype="multipart/form-data"><a href="student/image"><input
+                    type="file"
+                    name="file"
+                    id="input-files"
+                    class="form-control-file border"
+                  /><button type="submit">upload</button></a></form>  </li>
+        <% }) %>
+    </ul>
+</center>
+  </body>
+</html>
